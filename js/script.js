@@ -12,7 +12,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto1-2.jpeg"},
             {tipo: "img", src: "images/produtos/produto1-3.jpeg"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Calça Jeans Skinny Feminina – Azul Escuro",
@@ -23,7 +24,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto2-2.jpeg"},
             {tipo: "img", src: "images/produtos/produto2-3.jpeg"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44", "46"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Saia Jeans Feminina Curta – Azul Médio",
@@ -33,7 +35,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto3-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto3-2.jpeg"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Saia Jeans Feminina Curta – Azul Escuro",
@@ -43,7 +46,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto4-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto4-2.jpeg"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     // {
     //     nome: "Calça Jeans Flare Vintage",
@@ -54,7 +58,7 @@ const produtos = [
     //         {tipo: "img", src: "images/produtos/produto5-2.jpeg"},
     //         {tipo: "img", src: "images/produtos/produto5-3.jpeg"}
     //     ],
-    //     tamanhos: ["36", "38", "40", "42", "44"]
+    //     tamanhos: "36, 38, 40, 42, 44",
     // },
     // {
     //     nome: "Calça Jeans Flare Vintage",
@@ -65,7 +69,7 @@ const produtos = [
     //         {tipo: "img", src: "images/produtos/produto6-2.jpeg"},
     //         {tipo: "img", src: "images/produtos/produto6-3.jpeg"}
     //     ],
-    //     tamanhos: ["36", "38", "40", "42", "44"]
+    //     tamanhos: "36, 38, 40, 42, 44",
     // },
     {
         nome: "Calça Jeans Pantalona de Elástico Azul Claro",
@@ -74,7 +78,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto1.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Calça Jeans Wide Leg Azul Claro (Costas)",
@@ -83,7 +88,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto2.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Calça Jeans Wide Leg Azul Médio",
@@ -92,7 +98,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto3.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Short Meia Cocha Feminino",
@@ -101,7 +108,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto4.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Calça Jeans Flare Azul Médio",
@@ -110,7 +118,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto5.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
     {
         nome: "Calça Jeans Flare Azul Claro",
@@ -119,7 +128,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto6.mp4"}
         ],
-        tamanhos: ["36", "38", "40", "42", "44"]
+        tamanhos: "36, 38, 40, 42, 44",
+        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
     },
 ];
 
@@ -229,12 +239,13 @@ function openModal(index) {
     modalInfo.innerHTML = `
         <h2>${produto.nome}</h2>
         <p>${produto.descricao}</p>
+        <p><b>Numeração: ${produto.tamanhos}</b></p>
         <div class="preco">${produto.preco}</div>
         <div class="tamanho-select">
-            <label for="tamanho-select">Escolha o tamanho:</label>
+            <label for="tamanho-select">Escolha quantidade grades:</label>
             <select id="tamanho-select">
-                <option value="">Selecione um tamanho</option>
-                ${produto.tamanhos.map(t => `<option value="${t}">${t}</option>`).join('')}
+                <option value="">Selecione uma grade</option>
+                ${produto.grades.map(t => `<option value="${t}">${t}</option>`).join('')}
             </select>
         </div>
         <button class="btn-ver-mais" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
@@ -291,7 +302,7 @@ function adicionarAoCarrinho() {
     const tamanho = tamanhoSelect.value;
 
     if (!tamanho) {
-        alert('Por favor, selecione um tamanho!');
+        alert('Por favor, selecione uma grade!');
         return;
     }
 
@@ -352,7 +363,7 @@ function atualizarCarrinho() {
             }
             <div class="cart-item-info">
                 <h4>${item.nome}</h4>
-                <p>Tamanho: ${item.tamanho}</p>
+                <p>Grades: ${item.tamanho}</p>
                 <p class="cart-item-price">${item.preco}</p>
             </div>
             <button class="cart-item-remove" onclick="removerDoCarrinho(${item.id})">×</button>
@@ -377,7 +388,7 @@ function finalizarPedido() {
     
     carrinho.forEach((item, index) => {
         mensagem += `*${index + 1}. ${item.nome}*\n`;
-        mensagem += `   Tamanho: ${item.tamanho}\n`;
+        mensagem += `   Grades: ${item.tamanho}\n`;
         mensagem += `   Valor: ${item.preco}\n\n`;
     });
 
@@ -387,7 +398,7 @@ function finalizarPedido() {
     }, 0);
 
     mensagem += `*TOTAL: R$ ${total.toFixed(2).replace('.', ',')}*\n\n`;
-    mensagem += '📸 _Fotos dos produtos serão enviadas em seguida_';
+    //mensagem += '📸 _Fotos dos produtos serão enviadas em seguida_';
 
     const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
