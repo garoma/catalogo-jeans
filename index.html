@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeans Feminino - Catálogo Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>✨ Jeans Feminino Premium ✨</h1>
+        <p>Estilo e conforto para você</p>
+    </header>
+
+    <div class="container">
+        <div class="produtos-grid" id="produtos-grid">
+            <!-- Os produtos serão inseridos aqui pelo JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <div class="modal-carousel" id="modal-carousel">
+                <button class="carousel-btn prev" onclick="moveModalCarousel(-1)">‹</button>
+                <button class="carousel-btn next" onclick="moveModalCarousel(1)">›</button>
+            </div>
+            <div class="dots" id="modal-dots"></div>
+            <div class="modal-info" id="modal-info"></div>
+        </div>
+    </div>
+
+    <!-- Botão Carrinho -->
+    <div class="cart-float" onclick="toggleCart()">
+        <span>🛒</span>
+        <span class="cart-count" id="cart-count">0</span>
+    </div>
+
+    <!-- Carrinho Lateral -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Meu Carrinho</h3>
+            <button class="cart-close" onclick="toggleCart()">×</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <p class="cart-empty">Seu carrinho está vazio</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">R$ 0,00</span>
+            </div>
+            <button class="btn-finalizar" onclick="finalizarPedido()">Finalizar Pedido</button>
+        </div>
+    </div>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5581999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos" class="whatsapp-float" target="_blank">
+        <span>💬</span>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
