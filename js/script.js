@@ -1,5 +1,5 @@
 // CONFIGURAÇÃO - Altere aqui suas informações
-const WHATSAPP_NUMERO = '5581999999999'; // Coloque seu número aqui
+const WHATSAPP_NUMERO = '5581991257099'; // Coloque seu número aqui
 
 // PRODUTOS - Adicione seus produtos aqui
 const produtos = [
