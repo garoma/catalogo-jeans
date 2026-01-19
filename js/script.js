@@ -4,9 +4,9 @@ const WHATSAPP_NUMERO = '5581999999999'; // Coloque seu número aqui
 // PRODUTOS - Adicione seus produtos aqui
 const produtos = [
     {
-        nome: "Calça Jeans Skinny Premium",
-        descricao: "Calça jeans skinny de cintura alta com elastano para conforto total. Tecido de alta qualidade com toque macio e durabilidade excepcional. Perfeita para o dia a dia e ocasiões especiais.",
-        preco: "R$ 189,90",
+        nome: "Calça Jeans Skinny Feminina – Azul Claro",
+        descricao: "Calça jeans skinny feminina com modelagem que valoriza a silhueta, oferecendo um caimento perfeito ao corpo. Confeccionada em jeans de alta qualidade, possui toque macio, excelente elasticidade e conforto para o uso diário.",
+        preco: "R$ 28,00",
         midias: [
             {tipo: "img", src: "images/produtos/produto1-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto1-2.jpeg"},
@@ -15,9 +15,9 @@ const produtos = [
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Wide Leg",
-        descricao: "Modelagem ampla e confortável, tendência fashion para looks despojados e elegantes. Cintura média com caimento perfeito. Ideal para quem busca estilo e conforto.",
-        preco: "R$ 199,90",
+        nome: "Calça Jeans Skinny Feminina – Azul Escuro",
+        descricao: "Calça jeans skinny feminina com modelagem que valoriza a silhueta, oferecendo um caimento perfeito ao corpo. Confeccionada em jeans de alta qualidade, possui toque macio, excelente elasticidade e conforto para o uso diário.",
+        preco: "R$ 28,00",
         midias: [
             {tipo: "img", src: "images/produtos/produto2-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto2-2.jpeg"},
@@ -26,9 +26,9 @@ const produtos = [
         tamanhos: ["36", "38", "40", "42", "44", "46"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Saia Jeans Feminina Curta – Azul Médio",
+        descricao: "Saia jeans feminina curta com modelagem moderna e caimento impecável, ideal para valorizar a silhueta com conforto e estilo. Confeccionada em jeans de alta qualidade, possui estrutura firme, toque macio e excelente durabilidade.",
+        preco: "R$ 20,00",
         midias: [
             {tipo: "img", src: "images/produtos/produto3-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto3-2.jpeg"}
@@ -36,86 +36,86 @@ const produtos = [
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Saia Jeans Feminina Curta – Azul Escuro",
+        descricao: "Saia jeans feminina curta com modelagem moderna e caimento impecável, ideal para valorizar a silhueta com conforto e estilo. Confeccionada em jeans de alta qualidade, possui estrutura firme, toque macio e excelente durabilidade.",
+        preco: "R$ 20,00",
         midias: [
             {tipo: "img", src: "images/produtos/produto4-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto4-2.jpeg"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
+    // {
+    //     nome: "Calça Jeans Flare Vintage",
+    //     descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
+    //     preco: "R$ 179,90",
+    //     midias: [
+    //         {tipo: "img", src: "images/produtos/produto5-1.jpeg"},
+    //         {tipo: "img", src: "images/produtos/produto5-2.jpeg"},
+    //         {tipo: "img", src: "images/produtos/produto5-3.jpeg"}
+    //     ],
+    //     tamanhos: ["36", "38", "40", "42", "44"]
+    // },
+    // {
+    //     nome: "Calça Jeans Flare Vintage",
+    //     descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
+    //     preco: "R$ 179,90",
+    //     midias: [
+    //         {tipo: "img", src: "images/produtos/produto6-1.jpeg"},
+    //         {tipo: "img", src: "images/produtos/produto6-2.jpeg"},
+    //         {tipo: "img", src: "images/produtos/produto6-3.jpeg"}
+    //     ],
+    //     tamanhos: ["36", "38", "40", "42", "44"]
+    // },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
-        midias: [
-            {tipo: "img", src: "images/produtos/produto5-1.jpeg"},
-            {tipo: "img", src: "images/produtos/produto5-2.jpeg"},
-            {tipo: "img", src: "images/produtos/produto5-3.jpeg"}
-        ],
-        tamanhos: ["36", "38", "40", "42", "44"]
-    },
-    {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
-        midias: [
-            {tipo: "img", src: "images/produtos/produto6-1.jpeg"},
-            {tipo: "img", src: "images/produtos/produto6-2.jpeg"},
-            {tipo: "img", src: "images/produtos/produto6-3.jpeg"}
-        ],
-        tamanhos: ["36", "38", "40", "42", "44"]
-    },
-    {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Calça Jeans Pantalona de Elástico Azul Claro",
+        descricao: "Calça jeans feminina wide leg com modelagem moderna e caimento impecável. Possui cintura média/alta que valoriza a silhueta e pernas amplas que garantem conforto e estilo. Confeccionada em jeans de alta qualidade, ideal para compor looks casuais ou fashionistas.",
+        preco: "R$ 30,00",
         midias: [
             {tipo: "video", src: "images/videos/produto1.mp4"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Calça Jeans Wide Leg Azul Claro (Costas)",
+        descricao: "Calça jeans wide leg com excelente caimento traseiro, valorizando o quadril e garantindo ajuste perfeito. Modelagem moderna com acabamento de qualidade, ideal para quem busca estilo aliado ao conforto.",
+        preco: "R$ 35,00",
         midias: [
             {tipo: "video", src: "images/videos/produto2.mp4"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Calça Jeans Wide Leg Azul Médio",
+        descricao: "Calça jeans feminina wide leg em tom azul médio clássico. Possui cintura média/alta e modelagem elegante, perfeita para composições sofisticadas ou casuais. Ideal para uso diário ou ocasiões especiais.",
+        preco: "R$ 35,00",
         midias: [
             {tipo: "video", src: "images/videos/produto3.mp4"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Short Meia Cocha Feminino",
+        descricao: "Short jeans feminino com modelagem justa e confortável, ideal para looks modernos e sensuais. Confeccionado em jeans de qualidade, valoriza as curvas sem perder o conforto.",
+        preco: "R$ 22,00",
         midias: [
             {tipo: "video", src: "images/videos/produto4.mp4"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Calça Jeans Flare Azul Médio",
+        descricao: "Calça jeans feminina flare, com modelagem que alonga a silhueta e proporciona um visual elegante. Possui cintura média/alta e acabamento impecável, ideal para quem busca sofisticação no dia a dia.",
+        preco: "R$ 28,00",
         midias: [
             {tipo: "video", src: "images/videos/produto5.mp4"}
         ],
         tamanhos: ["36", "38", "40", "42", "44"]
     },
     {
-        nome: "Calça Jeans Flare Vintage",
-        descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-        preco: "R$ 179,90",
+        nome: "Calça Jeans Flare Azul Claro",
+        descricao: "Calça jeans flare feminina com caimento perfeito e visual moderno. A modelagem proporciona elegância e conforto, sendo ideal para compor looks fashion e versáteis.",
+        preco: "R$ 28,00",
         midias: [
             {tipo: "video", src: "images/videos/produto6.mp4"}
         ],
