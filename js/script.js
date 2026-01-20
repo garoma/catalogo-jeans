@@ -12,8 +12,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto1-2.jpeg"},
             {tipo: "img", src: "images/produtos/produto1-3.jpeg"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Calça Jeans Skinny Feminina – Azul Escuro",
@@ -24,8 +24,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto2-2.jpeg"},
             {tipo: "img", src: "images/produtos/produto2-3.jpeg"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Saia Jeans Feminina Curta – Azul Médio",
@@ -35,8 +35,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto3-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto3-2.jpeg"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Saia Jeans Feminina Curta – Azul Escuro",
@@ -46,8 +46,8 @@ const produtos = [
             {tipo: "img", src: "images/produtos/produto4-1.jpeg"},
             {tipo: "img", src: "images/produtos/produto4-2.jpeg"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     // {
     //     nome: "Calça Jeans Flare Vintage",
@@ -78,8 +78,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto1.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Calça Jeans Wide Leg Azul Claro (Costas)",
@@ -88,8 +88,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto2.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Calça Jeans Wide Leg Azul Médio",
@@ -98,8 +98,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto3.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Short Meia Cocha Feminino",
@@ -108,8 +108,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto4.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Calça Jeans Flare Azul Médio",
@@ -118,8 +118,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto5.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
         nome: "Calça Jeans Flare Azul Claro",
@@ -128,8 +128,8 @@ const produtos = [
         midias: [
             {tipo: "video", src: "images/videos/produto6.mp4"}
         ],
-        tamanhos: "36, 38, 40, 42, 44",
-        grades: ["1", "2", "3", "4", "5","6", "7", "8", "9", "10","11", "12", "13", "14", "15","16", "17", "18", "19", "20","21", "22", "23", "24", "25","26", "27", "28", "29", "30"]
+        tamanhos: "36, 38, 40, 42, 44, 46",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
 ];
 
@@ -240,6 +240,7 @@ function openModal(index) {
         <h2>${produto.nome}</h2>
         <p>${produto.descricao}</p>
         <p><b>Numeração: ${produto.tamanhos}</b></p>
+        <b/>
         <div class="preco">${produto.preco}</div>
         <div class="tamanho-select">
             <label for="tamanho-select">Escolha quantidade grades:</label>
@@ -355,24 +356,64 @@ function atualizarCarrinho() {
         return;
     }
 
-    cartItems.innerHTML = carrinho.map(item => `
-        <div class="cart-item">
-            ${item.temVideo 
-                ? `<div class="cart-item-img" style="background: #000; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px;">🎥</div>`
-                : `<img src="${item.imagem}" alt="${item.nome}" class="cart-item-img">`
-            }
-            <div class="cart-item-info">
-                <h4>${item.nome}</h4>
-                <p>Grades: ${item.tamanho}</p>
-                <p class="cart-item-price">${item.preco}</p>
+    cartItems.innerHTML = carrinho.map(item => {
+
+        // EX: "2 (6 pcs)"
+        const gradeStr = item.tamanho || '';
+
+        const grades = parseInt(gradeStr) || 0;
+        const pcsMatch = gradeStr.match(/\((\d+)/);
+        const pcs = pcsMatch ? parseInt(pcsMatch[1]) : 0;
+
+        // EX: "R$ 28,00"
+        const precoUnitario = Number(
+            item.preco
+                .toString()
+                .replace('R$', '')
+                .replace('.', '')
+                .replace(',', '.')
+        ) || 0;
+
+        const totalItem = grades * pcs * precoUnitario;
+
+        return `
+            <div class="cart-item">
+                ${item.temVideo 
+                    ? `<div class="cart-item-img" style="background:#000; display:flex; align-items:center; justify-content:center; color:white; font-size:30px;">🎥</div>`
+                    : `<img src="${item.imagem}" alt="${item.nome}" class="cart-item-img">`
+                }
+                <div class="cart-item-info">
+                    <h4>${item.nome}</h4>
+                    <p>Grades: ${item.tamanho}</p>
+                    <p class="cart-item-price">R$ ${totalItem.toFixed(2)}</p>
+                </div>
+                <button class="cart-item-remove" onclick="removerDoCarrinho(${item.id})">×</button>
             </div>
-            <button class="cart-item-remove" onclick="removerDoCarrinho(${item.id})">×</button>
-        </div>
-    `).join('');
+        `;
+    }).join('');
+    
 
     const total = carrinho.reduce((sum, item) => {
-        const valor = parseFloat(item.preco.replace('R$ ', '').replace(',', '.'));
-        return sum + valor;
+
+        // "2 (6 pcs)"
+        const gradeStr = item.tamanho || '';
+
+        const grades = parseInt(gradeStr) || 0;
+        const pcsMatch = gradeStr.match(/\((\d+)/);
+        const pcs = pcsMatch ? parseInt(pcsMatch[1]) : 0;
+
+        // "R$ 28,00"
+        const precoUnitario = Number(
+            item.preco
+                .toString()
+                .replace('R$', '')
+                .replace('.', '')
+                .replace(',', '.')
+        ) || 0;
+
+        const totalItem = grades * pcs * precoUnitario;
+
+        return sum + totalItem;
     }, 0);
 
     cartTotal.textContent = `R$ ${total.toFixed(2).replace('.', ',')}`;
@@ -385,20 +426,38 @@ function finalizarPedido() {
     }
 
     let mensagem = '*🛍️ Novo Pedido - Jeans Feminino*\n\n';
-    
+
+    function calcularTotalItem(item) {
+        const gradeStr = item.tamanho || '';
+
+        const grades = parseInt(gradeStr) || 0;
+        const pcs = parseInt(gradeStr.match(/\((\d+)/)?.[1]) || 0;
+
+        const precoUnitario = Number(
+            item.preco
+                .toString()
+                .replace('R$', '')
+                .replace('.', '')
+                .replace(',', '.')
+        ) || 0;
+
+        return grades * pcs * precoUnitario;
+    }
+
     carrinho.forEach((item, index) => {
+        const totalItem = calcularTotalItem(item);
+
         mensagem += `*${index + 1}. ${item.nome}*\n`;
         mensagem += `   Grades: ${item.tamanho}\n`;
-        mensagem += `   Valor: ${item.preco}\n\n`;
+        mensagem += `   Valor: R$ ${totalItem.toFixed(2).replace('.', ',')}\n\n`;
     });
 
-    const total = carrinho.reduce((sum, item) => {
-        const valor = parseFloat(item.preco.replace('R$ ', '').replace(',', '.'));
-        return sum + valor;
-    }, 0);
+    const total = carrinho.reduce(
+        (sum, item) => sum + calcularTotalItem(item),
+        0
+    );
 
     mensagem += `*TOTAL: R$ ${total.toFixed(2).replace('.', ',')}*\n\n`;
-    //mensagem += '📸 _Fotos dos produtos serão enviadas em seguida_';
 
     const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
