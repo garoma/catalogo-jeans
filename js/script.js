@@ -4,6 +4,30 @@ const WHATSAPP_NUMERO = '5581991257099'; // Coloque seu número aqui
 // PRODUTOS - Adicione seus produtos aqui
 const produtos = [
     {
+        nome: "Colete de Manga Feminina – Azul Claro",
+        descricao: "Colete jeans feminino de manga curta, moderno e elegante. Perfeito para compor looks casuais e estilosos em diversas ocasiões. Confortável, versátil e fácil de combinar com shorts, saias ou calças, trazendo um toque fashion ao visual.",
+        preco: "R$ 35,00",
+        midias: [
+            {tipo: "img", src: "images/produtos/produto7-1.jpeg"},
+            {tipo: "img", src: "images/produtos/produto7-2.jpeg"},
+            {tipo: "img", src: "images/produtos/produto7-3.jpeg"}
+        ],
+        tamanhos: "P, M, G, GG",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (4 pcs)`)
+    },
+    {
+        nome: "Colete de Manga Feminina – Azul Escuro",
+        descricao: "Colete jeans feminino de manga curta, moderno e elegante. Perfeito para compor looks casuais e estilosos em diversas ocasiões. Confortável, versátil e fácil de combinar com shorts, saias ou calças, trazendo um toque fashion ao visual.",
+        preco: "R$ 35,00",
+        midias: [
+            {tipo: "img", src: "images/produtos/produto8-1.jpeg"},
+            {tipo: "img", src: "images/produtos/produto8-2.jpeg"},
+            {tipo: "img", src: "images/produtos/produto8-3.jpeg"}
+        ],
+        tamanhos: "P, M, G, GG",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (4 pcs)`)
+    },
+    {
         nome: "Calça Jeans Skinny Feminina – Azul Claro",
         descricao: "Calça jeans skinny feminina com modelagem que valoriza a silhueta, oferecendo um caimento perfeito ao corpo. Confeccionada em jeans de alta qualidade, possui toque macio, excelente elasticidade e conforto para o uso diário.",
         preco: "R$ 28,00",
@@ -49,28 +73,6 @@ const produtos = [
         tamanhos: "36, 38, 40, 42, 44, 46",
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
-    // {
-    //     nome: "Calça Jeans Flare Vintage",
-    //     descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-    //     preco: "R$ 179,90",
-    //     midias: [
-    //         {tipo: "img", src: "images/produtos/produto5-1.jpeg"},
-    //         {tipo: "img", src: "images/produtos/produto5-2.jpeg"},
-    //         {tipo: "img", src: "images/produtos/produto5-3.jpeg"}
-    //     ],
-    //     tamanhos: "36, 38, 40, 42, 44",
-    // },
-    // {
-    //     nome: "Calça Jeans Flare Vintage",
-    //     descricao: "Estilo retrô com modelagem boca de sino que alonga a silhueta. Perfeita para um look vintage e moderno ao mesmo tempo. Jeans de alta qualidade com lavagem especial.",
-    //     preco: "R$ 179,90",
-    //     midias: [
-    //         {tipo: "img", src: "images/produtos/produto6-1.jpeg"},
-    //         {tipo: "img", src: "images/produtos/produto6-2.jpeg"},
-    //         {tipo: "img", src: "images/produtos/produto6-3.jpeg"}
-    //     ],
-    //     tamanhos: "36, 38, 40, 42, 44",
-    // },
     {
         nome: "Calça Jeans Pantalona de Elástico Azul Claro",
         descricao: "Calça jeans feminina wide leg com modelagem moderna e caimento impecável. Possui cintura média/alta que valoriza a silhueta e pernas amplas que garantem conforto e estilo. Confeccionada em jeans de alta qualidade, ideal para compor looks casuais ou fashionistas.",
