@@ -4,7 +4,7 @@ const WHATSAPP_NUMERO = '5581991257099'; // Coloque seu número aqui
 // PRODUTOS - Adicione seus produtos aqui
 const produtos = [
     {
-        nome: "Colete de Manga Feminina – Azul Claro",
+        nome: "Colete de Manga – Azul Claro",
         descricao: "Colete jeans feminino de manga curta, moderno e elegante. Perfeito para compor looks casuais e estilosos em diversas ocasiões. Confortável, versátil e fácil de combinar com shorts, saias ou calças, trazendo um toque fashion ao visual.",
         preco: "R$ 35,00",
         midias: [
@@ -16,7 +16,7 @@ const produtos = [
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (4 pcs)`)
     },
     {
-        nome: "Colete de Manga Feminina – Azul Escuro",
+        nome: "Colete de Manga – Azul Escuro",
         descricao: "Colete jeans feminino de manga curta, moderno e elegante. Perfeito para compor looks casuais e estilosos em diversas ocasiões. Confortável, versátil e fácil de combinar com shorts, saias ou calças, trazendo um toque fashion ao visual.",
         preco: "R$ 35,00",
         midias: [
@@ -28,7 +28,31 @@ const produtos = [
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (4 pcs)`)
     },
     {
-        nome: "Calça Jeans Skinny Feminina – Azul Claro",
+        nome: "Calça Jeans Mon  – Azul Claro",
+        descricao: "Calça jeans moderna com cintura alta que valoriza a silhueta e proporciona um caimento elegante. Confeccionada em jeans azul escuro, é versátil e fácil de combinar, perfeita para looks casuais ou mais sofisticados com muito conforto e estilo. 👖✨",
+        preco: "R$ 35,00",
+        midias: [
+            {tipo: "img", src: "images/produtos/produto9-1.jpeg"},
+            {tipo: "img", src: "images/produtos/produto9-2.jpeg"},
+            {tipo: "img", src: "images/produtos/produto9-3.jpeg"}
+        ],
+        tamanhos: "34, 36, 38, 40, 42, 44",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
+    },
+    {
+        nome: "Calça Jeans Mon – Azul Escuro",
+        descricao: "Calça jeans moderna com cintura alta que valoriza a silhueta e proporciona um caimento elegante. Confeccionada em jeans azul escuro, é versátil e fácil de combinar, perfeita para looks casuais ou mais sofisticados com muito conforto e estilo. 👖✨",
+        preco: "R$ 35,00",
+        midias: [
+            {tipo: "img", src: "images/produtos/produto10-1.jpeg"},
+            {tipo: "img", src: "images/produtos/produto10-2.jpeg"},
+            {tipo: "img", src: "images/produtos/produto10-3.jpeg"}
+        ],
+        tamanhos: "34, 36, 38, 40, 42, 44",
+        grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
+    },
+    {
+        nome: "Calça Jeans Skinny – Azul Claro",
         descricao: "Calça jeans skinny feminina com modelagem que valoriza a silhueta, oferecendo um caimento perfeito ao corpo. Confeccionada em jeans de alta qualidade, possui toque macio, excelente elasticidade e conforto para o uso diário.",
         preco: "R$ 28,00",
         midias: [
@@ -40,7 +64,7 @@ const produtos = [
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
-        nome: "Calça Jeans Skinny Feminina – Azul Escuro",
+        nome: "Calça Jeans Skinny – Azul Escuro",
         descricao: "Calça jeans skinny feminina com modelagem que valoriza a silhueta, oferecendo um caimento perfeito ao corpo. Confeccionada em jeans de alta qualidade, possui toque macio, excelente elasticidade e conforto para o uso diário.",
         preco: "R$ 28,00",
         midias: [
@@ -52,7 +76,7 @@ const produtos = [
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
-        nome: "Saia Jeans Feminina Curta – Azul Médio",
+        nome: "Saia Jeans Curta – Azul Médio",
         descricao: "Saia jeans feminina curta com modelagem moderna e caimento impecável, ideal para valorizar a silhueta com conforto e estilo. Confeccionada em jeans de alta qualidade, possui estrutura firme, toque macio e excelente durabilidade.",
         preco: "R$ 20,00",
         midias: [
@@ -63,7 +87,7 @@ const produtos = [
         grades: Array.from({ length: 30 }, (_, i) => `${i + 1} (6 pcs)`)
     },
     {
-        nome: "Saia Jeans Feminina Curta – Azul Escuro",
+        nome: "Saia Jeans Curta – Azul Escuro",
         descricao: "Saia jeans feminina curta com modelagem moderna e caimento impecável, ideal para valorizar a silhueta com conforto e estilo. Confeccionada em jeans de alta qualidade, possui estrutura firme, toque macio e excelente durabilidade.",
         preco: "R$ 20,00",
         midias: [
